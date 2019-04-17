@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai7</title>
+	
+</head>
+<body>
+	<label>Nhap chieu dai</label>
+	<input type="text" name="cd" id="cd">
+	<br>
+	<label>Nhap chieu rong</label>
+	<input type="text" name="cr" id="cr">
+	<br>
+	<input type="button" name="dientichhv" value="Tính diện tích hình vuông" onclick="dientichhv(cd,cr)">
+
+
+	<script language="javascript" type="text/javascript">
+		function dientichhv(cd, cr)
+			{
+				var dt;
+			   	if (cd > 0 && cr >0 && cd == cr) 
+			   	{
+			   		dt=cd*cr;
+			   	}
+			   	alert("dien tich hinh vuong la "+ dt );
+			}
+	</script>
+</body>
+</html>
